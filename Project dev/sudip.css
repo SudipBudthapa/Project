@@ -1,0 +1,5428 @@
+
+@media screen and (max-width: 1400px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1366px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+        width:auto;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:20rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:100rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+@media screen and (max-width: 1300px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:80px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 1265px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1190px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 1172px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 1050px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 1400px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px){
+    header {
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.5%;
+    }
+    html{
+        font-size:9px;
+    }
+    
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+    
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+    
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 30%;
+        width: 30%;
+        margin-right: 42rem;
+        margin-top:2rem;
+    }
+    
+    .pro {
+        text-align: center;
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 7rem;
+    }
+    
+    .football {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .adi {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .price {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .off {
+        color: #C85FFA;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .button {
+        background-color: #24196B;
+        color: #C85FFA;
+    }
+    
+    .buy {
+        background-color: #24196B;
+        color: #C85FFA;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        cursor: pointer;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
+    .pum {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pri {
+        color: #24196B;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .niv {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .buy:hover {
+        background-color: #24196B;
+        color: white;
+    }
+    
+    .second-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .shoes-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .shoes-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .puma-shoes {
+        margin-top: 4rem;
+    }
+    
+    .third-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .club-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .club-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .club-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fourth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:13rem;
+    }
+    
+    .country-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .country-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .country-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+        width:40rem;
+    }
+    
+    .realmadrid {
+        margin-top: 3.5rem;
+    }
+    
+    .brazil {
+        margin-top: 3.5rem;
+    }
+    
+    .argentina {
+        margin-top: 2rem;
+    }
+    
+    .cricket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .fifth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:14rem;
+    }
+    
+    .cricket-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sixth-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:10rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .bat {
+        margin-top: 3.5rem;
+    }
+    
+    .cricket-shoes {
+        margin: 3.7rem;
+    }
+    
+    .basket {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .other {
+        color: #24196B;
+        font-size: 6.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 10rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .seventh-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:8rem;
+    }
+    
+    .basketball-1 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-2 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball-3 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .eight-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 13.3rem;
+        margin-left:20px;
+        gap:12rem;
+    }
+    
+    .cricket-4 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-5 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cricket-6 {
+        color: #24196B;
+        font-size: 4.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 8.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .basketball {
+        margin-top: 8.5rem;
+    }
+    
+    .basketball-shoes {
+        margin-top: 18.5rem;
+    }
+    
+    .badminton {
+        margin-top: -14.9rem;
+    }
+    
+    .lawn {
+        margin-top: -1rem;
+    }
+    
+    .table {
+        margin-top: -4.7rem;
+    }
+    
+    .other {
+        margin-bottom: 8rem;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 106%;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        margin-top: 3rem;
+        width:20rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+}

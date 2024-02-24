@@ -1,0 +1,980 @@
+header {
+    padding: .5em 1em;
+    display:flex;
+    flex-direction: row;
+    margin-left:3.5%
+}
+  
+nav ul {
+    padding-right: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content:right;
+    gap:50px;
+    margin-top:50px;
+ }
+    
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+    
+nav a {
+   font-family: "Plus Jakarta Sans-Regular", Helvetica;
+   color:black;
+   text-align: justify;
+   text-decoration: none;
+   font-weight: 600;
+   font-weight: bold;
+   font-size:  30px;
+   word-spacing: 4px;
+}
+    
+nav a:hover {
+   border-bottom: 2px solid red;
+}
+
+
+.logo{
+    height:30%;
+    width:30%;
+    margin-right: 270px;
+    
+}
+
+.pro{
+    text-align:center;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:70px;
+    margin-left:200px;
+    
+
+}
+h1{
+    width:max-content;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-left:400px;
+}
+
+h2{
+    width:max-content;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-left:400px;
+}
+h3{
+    width:max-content;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-left:400px;
+}
+h4{
+    width:max-content;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-left:400px;
+}
+
+h5{
+    width:max-content;
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-left:400px;
+}
+.football{
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-right:5%;
+    margin-left:5%;
+    
+}
+.first-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+.adi{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.price{
+    color: #24196B;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word
+}
+.off{
+    color: #C85FFA;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    }
+.button
+    {
+        background-color: #24196B;
+        color: #C85FFA;  
+    }
+.buy{
+    background-color: #24196B;
+    color: #C85FFA;
+    font-size: 34px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    cursor: pointer;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:5px;
+    width: 150px;
+
+
+}
+.pum{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+.pri{
+    color: #24196B;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.niv{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.buy:hover{
+    background-color: #24196B;
+    color:white;
+}
+.second-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.shoes-1{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.shoes-2{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.shoes-3{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.puma-shoes{
+    margin-top:40px;
+}
+
+.third-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+
+.club-1{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.club-2{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.club-3{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.fourth-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.country-1{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.country-2{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.country-3{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+    width:max-content
+ 
+}
+
+.realmadrid{
+    margin-top:35px;
+}
+
+.brazil{
+    margin-top:35px;
+}
+
+.argentina{
+    margin-top:20px;
+}
+
+
+.cricket{
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-right:5%;
+    margin-left:5%
+}
+
+.fifth-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.cricket-1{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.cricket-2{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.cricket-3{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.sixth-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.cricket-4{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.cricket-5{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.cricket-6{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.bat{
+    margin-top:35px;
+}
+
+.cricket-shoes{
+    margin:37px;
+}
+
+.basket{
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-right:5%;
+    margin-left:5%
+}
+
+
+.other{
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align:center;
+    margin-top:100px;
+    margin-right:5%;
+    margin-left:5%
+}
+.seventh-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.basketball-1{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+    margin-top:85px;
+}
+
+.basketball-2{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.basketball-3{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.eight-column{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:133px;
+    gap:4rem;
+}
+
+
+.cricket-4{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom:10px;
+}
+
+.cricket-5{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.cricket-6{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:85px;
+    margin-bottom:10px;
+ 
+}
+
+.basketball{
+    margin-top:85px;
+    
+
+}
+
+.basketball-shoes{
+    margin-top:185px;
+}
+
+.badminton{
+    margin-top:-149px;
+}
+
+.lawn{
+margin-top:-1px;    
+}
+
+.table{
+    margin-top:-47px;
+}
+
+.other{
+    margin-bottom:80px;
+}
+
+
+
+.footer{
+    background-color:#24196B;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+    width:100%
+}
+.pidus{
+    margin-right: 400px;
+
+}
+
+.footer-logo{
+    position: absolute;
+    margin-left: 80px;
+    height:18%;
+    margin-top:30px;
+
+    
+   
+}
+
+.footer-home{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+    }
+
+.footer-product{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+}
+
+.footer-about{
+    color: white;
+    font-size: 28px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 55px;
+    
+}
+
+.footer-contact{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+    margin-right:90px;
+}
+
+.box1{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+.box2{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+.box3{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+.box4{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+@media screen and (max-width:1400px){
+    html{
+        font-size:10px;
+    }
+    
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+    }
+    .first-column{
+        gap:8rem;
+    }
+
+    .second-column{
+        gap:12rem;
+        margin-left:50px;
+    }
+
+    .third-column{
+        gap:17rem;
+        margin-left:50px;
+    }
+
+    .fourth-column{
+        gap:9rem;
+        margin-left:50px;
+    }
+    .fifth-column{
+        gap:12rem;
+        margin-left:50px;
+    }
+    .sixth-column{
+        gap:10rem;
+    
+    }
+    .seventh-column{
+        gap:6rem;
+    
+    }
+    .eight-column{
+        gap:8rem;
+    
+    }
+
+    .footer{
+        width:max-content;
+    }
+
+}
+
+
+@media screen and (max-width:1350){
+    html{
+        font-size:9px;
+    }
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+    }
+    
+    .first-column{
+        gap:8rem;
+    }
+
+    .second-column{
+        gap:12rem;
+        margin-left:50px;
+    }
+
+    .third-column{
+        gap:17rem;
+        margin-left:50px;
+    }
+
+    .fourth-column{
+        gap:9rem;
+        margin-left:50px;
+    }
+    .fifth-column{
+        gap:12rem;
+        margin-left:50px;
+    }
+    .sixth-column{
+        gap:10rem;
+    
+    }
+    .seventh-column{
+        gap:6rem;
+    
+    }
+    .eight-column{
+        gap:8rem;
+    
+    }
+
+    .footer{
+        width:max-content;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    html{
+        font-size: 10px;
+    }
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+    }
+}
+
+@media screen and (max-width:430px){
+    html{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:375px){
+    html{
+        font-size: 10px;
+    }
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 40rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+    }
+
+}
+@media screen and (max-width:320px){
+    html{
+        font-size: 10px;
+    }
+   
+    .first-column{
+        gap:5rem;
+    }
+
+    .second-column{
+        gap:9rem;
+        margin-left:50px;
+    }
+
+    .third-column{
+        gap:15rem;
+        margin-left:50px;
+    }
+
+    .fourth-column{
+        gap:6rem;
+        margin-left:50px;
+    }
+    .fifth-column{
+        gap:9rem;
+        margin-left:50px;
+    }
+    .sixth-column{
+        gap:7rem;
+    
+    }
+    .seventh-column{
+        gap:3rem;
+    
+    }
+    .eight-column{
+        gap:5rem;
+    
+    }
+
+    .footer{
+        width:fit-content;
+    }
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 30rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+    }
+
+}

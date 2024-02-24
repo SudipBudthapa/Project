@@ -1,0 +1,2375 @@
+header {
+    padding: .5em 1em;
+    display:flex;
+    flex-direction: row;
+    margin-left:3.5%
+}
+  
+nav ul {
+    padding-right: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content:right;
+    gap:50px;
+    margin-top:50px;
+ }
+    
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+    
+nav a {
+   font-family: "Plus Jakarta Sans-Regular", Helvetica;
+   color:black;
+   text-align: justify;
+   text-decoration: none;
+   font-weight: 600;
+   font-weight: bold;
+   font-size:  30px;
+   word-spacing: 4px;
+}
+    
+nav a:hover {
+   border-bottom: 2px solid red;
+}
+
+
+.logo{
+    height:30%;
+    width:30%;
+    margin-right: 270px;
+    
+}.dipsu{
+    display:flex;
+    flex-direction: row;
+    margin-left:8%;
+    margin-top:100px;
+    gap:50px;
+   
+}
+
+.big-adidas{
+    height:600px;
+    width:600px;
+    margin-left:50px;
+    margin-top:80px;
+}
+
+.now{
+    display: flex;
+    flex-direction: column;
+    margin-left:100px;
+    margin-top:-10ppx;
+}
+
+.now-1{
+    color: #24196B;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word
+}
+.now-2{
+    color: #24196B;
+    font-size: 30px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.now-6{
+    height:100px;
+    width:100px;
+}
+.now-3{
+    color: #24196B;
+    font-size: 30px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.size{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+.now-4{
+
+    color: #24196B;
+    font-size: 40px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    
+}
+
+
+
+
+.now-5{
+
+   
+    color: #24196B;
+    font-size: 40px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.offs{
+
+    color: #C85FFA;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+
+}
+
+.detail{
+    color: #24196B;
+    font-size: 48px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-left:5%;
+}
+
+.pro{
+    color: #24196B;
+    font-size: 36px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-left:10px;
+    text-align: left;
+    margin-left:5%;
+    width:1440px;
+    
+}
+
+.footer{
+    background-color:#24196B;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+    width:1500px;
+}
+.pidus{
+    margin-right: 400px;
+
+}
+
+.footer-logo{
+    position: absolute;
+    margin-left: 80px;
+    height:18%;
+    margin-top:30px;
+
+    
+   
+}
+
+.footer-home{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+    }
+
+.footer-product{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+}
+
+.footer-about{
+    color: white;
+    font-size: 28px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 55px;
+    
+}
+
+.footer-contact{
+    color: white;
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 50px;
+    margin-right:90px;
+}
+
+.box1{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+.box2{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+.box3{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+
+}
+
+.box4{
+    color: white;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+
+@media screen and (max-width:1354px){
+    html{
+        font-size:9px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+        margin-top:20px;
+        margin-right:50px;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+    
+    }
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1430px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+        width:20rem;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+}
+
+
+    @media screen and (max-width:1250px) {
+        html{
+            font-size:8px;
+        }
+    
+        header {
+            padding: 0.05em 0.1em;
+            display: flex;
+            flex-direction: row;
+            margin-left: 0.35rem;
+        }
+          
+        nav ul {
+            padding-right: 5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            gap: 5rem;
+            margin-top: 5rem;
+        }
+            
+        nav ul li {
+            display: inline;
+            margin-left: 2rem;
+        }
+            
+        nav a {
+            font-family: "Plus Jakarta Sans-Regular", Helvetica;
+            color: black;
+            text-align: justify;
+            text-decoration: none;
+            font-weight: 600;
+            font-weight: bold;
+            font-size: 3rem;
+            word-spacing: 0.4rem;
+        }
+            
+        nav a:hover {
+            border-bottom: 0.2rem solid red;
+        }
+        
+        .logo {
+            height: 5rem;
+            width: 20rem;
+            margin-right: 44rem;
+            margin-left:4rem;
+            margin-top:3.4rem;
+    
+        }
+        
+        .dipsu {
+            display: flex;
+            flex-direction: row;
+            margin-left: 0.5rem;
+            margin-top: 6.25rem;
+            gap: 3.125rem;
+        }
+        
+        .big-adidas {
+            height: 77.5rem;
+            width: 77.5rem;
+            margin-left: 3.125rem;
+        }
+        
+        .now {
+            display: flex;
+            flex-direction: column;
+            margin-left: 6.25rem;
+            margin-top: -0.625rem;
+        }
+        
+        .now-1 {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word
+        }
+        
+        .now-2 {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word
+        }
+        
+        .now-6 {
+            height: 18.25rem;
+            width: 18.25rem;
+        }
+        
+        .now-3 {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+        
+        .size {
+            display: flex;
+            flex-direction: row;
+            gap: 1.875rem;
+        }
+        
+        .now-4 {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+        
+        .now-5 {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+        
+        .offs {
+            color: #C85FFA;
+            font-size: 3rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+        
+        .detail {
+            color: #24196B;
+            font-size: 6rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-left: 0.3125rem;
+        }
+        
+        .pro {
+            color: #24196B;
+            font-size: 4rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-left: 0.625rem;
+            text-align: left;
+            margin-left: 0.3125rem;
+        }
+
+        .one{
+            max-width: fit-content;
+            min-width: none;
+        }
+        .two{
+            max-width: fit-content;
+            min-width: none;
+        }
+        .three{
+            max-width:fit-content;
+            min-width: none;
+        }
+        .four{
+            max-width: fit-content;
+            min-width: none;
+        }
+        
+        
+        .footer {
+            background-color: #24196B;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 4rem;
+            width:1435px;
+        }
+        
+        .pidus {
+            margin-right: 40rem;
+        }
+        
+        .footer-logo {
+            position: absolute;
+            margin-left: 8rem;
+            height: 5rem;
+            width:20rem;
+            margin-top: 3rem;
+        }
+        
+        .footer-home {
+            color: white;
+            font-size: 3.2rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-top: 5rem;
+        }
+        
+        .footer-product {
+            color: white;
+            font-size: 3.2rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-top: 5rem;
+        }
+        
+        .footer-about {
+            color: white;
+            font-size: 2.8rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-top: 5.5rem;
+        }
+        
+        .footer-contact {
+            color: white;
+            font-size: 3.2rem;
+            font-family: Plus Jakarta Sans;
+            font-weight: 600;
+            word-wrap: break-word;
+            margin-top: 5rem;
+            margin-right: 9rem;
+        }
+        
+        .box1 {
+            color: white;
+            font-size: 2.8rem;
+            font-family: Inter;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .box2 {
+            color: white;
+            font-size: 2.8rem;
+            font-family: Inter;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .box3 {
+            color: white;
+            font-size: 2.8rem;
+            font-family: Inter;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .box4 {
+            color: white;
+            font-size: 2.8rem;
+            font-family: Inter;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+    
+    
+    
+}
+
+
+@media screen and (max-width:1152px) {
+    html{
+        font-size:8px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1430px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
+@media screen and (max-width:1040px) {
+    html{
+        font-size:8px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+        width:1040px;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1120px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    html{
+        font-size:7px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 55rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+        width:1040px;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1120px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
+@media screen and (max-width:430px) {
+    html{
+        font-size:6.8px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+        width:1040px;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1120px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
+
+@media screen and (max-width:375px) {
+    html{
+        font-size:6.5px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+        width:1040px;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1120px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
+@media screen and (max-width:320px) {
+    html{
+        font-size:6px;
+    }
+
+    header {
+        padding: 0.05em 0.1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.35rem;
+    }
+      
+    nav ul {
+        padding-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+        
+    nav ul li {
+        display: inline;
+        margin-left: 2rem;
+    }
+        
+    nav a {
+        font-family: "Plus Jakarta Sans-Regular", Helvetica;
+        color: black;
+        text-align: justify;
+        text-decoration: none;
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 3rem;
+        word-spacing: 0.4rem;
+    }
+        
+    nav a:hover {
+        border-bottom: 0.2rem solid red;
+    }
+    
+    .logo {
+        height: 5rem;
+        width: 20rem;
+        margin-right: 44rem;
+        margin-left:4rem;
+        margin-top:3.4rem;
+
+    }
+    
+    .dipsu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-top: 6.25rem;
+        gap: 3.125rem;
+    }
+    
+    .big-adidas {
+        height: 77.5rem;
+        width: 77.5rem;
+        margin-left: 3.125rem;
+    }
+    
+    .now {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.25rem;
+        margin-top: -0.625rem;
+    }
+    
+    .now-1 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-2 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    
+    .now-6 {
+        height: 18.25rem;
+        width: 18.25rem;
+    }
+    
+    .now-3 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+    }
+    
+    .now-4 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .now-5 {
+        color: #24196B;
+        font-size: 4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .offs {
+        color: #C85FFA;
+        font-size: 3rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    
+    .detail {
+        color: #24196B;
+        font-size: 6rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.3125rem;
+    }
+    
+    .pro {
+        color: #24196B;
+        font-size: 3.4rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-left: 0.625rem;
+        text-align: left;
+        margin-left: 0.3125rem;
+        width:1040px;
+    }
+
+    .one{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .two{
+        max-width: fit-content;
+        min-width: none;
+    }
+    .three{
+        max-width:fit-content;
+        min-width: none;
+    }
+    .four{
+        max-width: fit-content;
+        min-width: none;
+    }
+    
+    
+    .footer {
+        background-color: #24196B;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        width:1120px;
+    }
+    
+    .pidus {
+        margin-right: 40rem;
+    }
+    
+    .footer-logo {
+        position: absolute;
+        margin-left: 8rem;
+        height: 5rem;
+        width:20rem;
+        margin-top: 3rem;
+    }
+    
+    .footer-home {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-product {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+    }
+    
+    .footer-about {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5.5rem;
+    }
+    
+    .footer-contact {
+        color: white;
+        font-size: 3.2rem;
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        word-wrap: break-word;
+        margin-top: 5rem;
+        margin-right: 9rem;
+    }
+    
+    .box1 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box2 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box3 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .box4 {
+        color: white;
+        font-size: 2.8rem;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+
+
+
+}
+
+
